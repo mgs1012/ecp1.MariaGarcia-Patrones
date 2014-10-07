@@ -1,5 +1,14 @@
 package ecp1.patrones.AplicacionVehiculos;
 
 public enum Categoria {
-	A,B,C;
+	A(10.00),
+	B(15.00),
+	C(20.00);
+	
+	public double precioBase;
+	
+	private Categoria(double precioBase){
+		this.precioBase = precioBase;
+		
+	}
 }

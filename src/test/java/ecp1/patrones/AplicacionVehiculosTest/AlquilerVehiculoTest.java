@@ -22,13 +22,13 @@ public class AlquilerVehiculoTest {
 	}
 
 	@Test
-	public void testMostrarVehiculos() {
-		this.alqvehiculo.mostrarVehiculos();
+	public void testBuscarVehiculos() {
+		this.alqvehiculo.buscarVehiculos();
 	}
 
 	@Test
 	public void testPrecioVehiculo() {		
-		this.alqvehiculo.precioVehiculo(id1, 2);
+		this.alqvehiculo.precioVehiculo(1, 2);
 	}
 
 }
