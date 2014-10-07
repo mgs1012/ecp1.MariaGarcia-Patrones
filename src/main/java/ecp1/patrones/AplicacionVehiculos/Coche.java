@@ -1,5 +1,7 @@
 package ecp1.patrones.AplicacionVehiculos;
 
-public class Coche {
+public class Coche extends Vehiculo{
+	
+	public Categoria categoria;
 
 }

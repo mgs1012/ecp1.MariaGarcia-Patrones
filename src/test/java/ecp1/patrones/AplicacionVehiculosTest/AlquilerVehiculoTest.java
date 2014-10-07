@@ -28,7 +28,7 @@ public class AlquilerVehiculoTest {
 
 	@Test
 	public void testPrecioVehiculo() {		
-		this.alqvehiculo.precioVehiculo(1, 2);
+		this.alqvehiculo.precioVehiculo(id1, 2);
 	}
 
 }

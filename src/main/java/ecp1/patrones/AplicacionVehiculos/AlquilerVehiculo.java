@@ -10,7 +10,9 @@ public class AlquilerVehiculo {
 		
 	}
 	
-	public void mostrarVehiculos(){
+	//vista void
+	public String mostrarVehiculos(){
+		return null;
 		
 	}
 	
