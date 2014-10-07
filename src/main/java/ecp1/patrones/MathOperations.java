@@ -19,5 +19,4 @@ public abstract class MathOperations {
 	    public int getOperator2() {
 	        return operator2;
 	    }
-
 }

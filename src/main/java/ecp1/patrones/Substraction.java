@@ -14,6 +14,6 @@ public class Substraction extends MathOperations{
     public String toString() {
         return "[" + operator1 + "-" + operator2 + "]";
     }
-
+    
 }
 
