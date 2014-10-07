@@ -8,8 +8,11 @@ public class Multiplication extends MathOperations{
 
 	@Override
 	public int calcularOperacion() {
-		return 0;
+		return this.operator1*this.operator2;
 	}
-	
+	 @Override
+	    public String toString() {
+	        return "[" + operator1 + "x" + operator2 + "]";
+	    }
 
 }
