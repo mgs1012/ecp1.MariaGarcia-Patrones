@@ -1,4 +1,4 @@
-package ecp1.patrones;
+package ecp1.patrones.operations;
 
 public class Main {
 
