@@ -7,5 +7,15 @@ public class Coche extends Vehiculo{
 	public Coche(){
 		super();
 	}
+	
+	public double calcularPrecio(){
+		return 0.0;
+		
+	}
+	
+	public String toString(){
+		return null;
+		
+	}
 
 }

@@ -5,7 +5,7 @@ public enum Categoria {
 	B(15.00),
 	C(20.00);
 	
-	public double precioBase;
+	public final double precioBase;
 	
 	private Categoria(double precioBase){
 		this.precioBase = precioBase;
