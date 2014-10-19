@@ -32,7 +32,7 @@ public class Coche extends Vehiculo{
 
 	@Override
 	public String toString() {
-		return "Coche : [id: " + this.getId() + "], [descripcion: "+ this.getDescripcion() + "]";
+		return "Coche: [id: " + this.getId() + "], [descripcion: " + this.getDescripcion() + "]";
 	}
 
 }

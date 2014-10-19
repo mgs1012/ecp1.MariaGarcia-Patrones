@@ -2,9 +2,9 @@ package ecp1.patrones.AplicacionAlquilerVehiculos;
 
 public abstract class Vehiculo {
 	
-	private int id;
+	protected int id;
 	
-	private String descripcion;
+	protected String descripcion;
 	
 	public Vehiculo(int id, String descripcion){
 		

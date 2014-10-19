@@ -18,7 +18,7 @@ public class CocheTest extends VehiculoTest {
 	@Before
 	public void before() {
 		coches = new Coche[NUM_CATEGORIAS];
-		coches[0] = new Coche(1, "Manual", Categoria.A);
+		coches[0] = new Coche(1, "Automatico", Categoria.A);
 		coches[1] = new Coche(2, "Automatico", Categoria.B);
 		coches[2] = new Coche(3, "Manual", Categoria.C);
 	}
@@ -45,6 +45,6 @@ public class CocheTest extends VehiculoTest {
 	@Test
 	public void testToString() {
 		assertEquals("Coche: [id: 1], [descripcion: Automatico]", coches[0].toString());
-	}
+}
 
 }
