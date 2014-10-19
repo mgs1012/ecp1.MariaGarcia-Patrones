@@ -25,7 +25,7 @@ public class Bicicleta extends Vehiculo{
 
 	@Override
 	public String toString() {
-		return "Bicicleta: [id: " + this.id + "], [descripcion: "+ this.descripcion + "]";
+		return "Bicicleta: [id: " + this.getId() + "], [descripcion: "+ this.getDescripcion() + "]";
 	}
 
 }

@@ -25,7 +25,7 @@ public class Moto extends Vehiculo {
 
 	@Override
 	public String toString() {
-		return "Moto: [id: " + this.id + "], [descripcion: " + this.descripcion + "]";
+		return "Moto: [id: " + this.getId() + "], [descripcion: " + this.getDescripcion() + "]";
 	}
 
 }

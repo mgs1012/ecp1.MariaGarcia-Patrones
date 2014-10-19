@@ -8,7 +8,7 @@ public class AlquilerVehiculo {
 	public Map<Integer,Vehiculo> vehiculos = new HashMap<Integer,Vehiculo>();
 	
 	public void altaVehiculo(Vehiculo vehiculo){
-		vehiculos.put(vehiculo.id, vehiculo);
+		vehiculos.put(vehiculo.getId(), vehiculo);
 		
 	}	
 	//vista void

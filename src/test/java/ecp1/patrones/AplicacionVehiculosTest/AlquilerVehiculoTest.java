@@ -33,8 +33,8 @@ public class AlquilerVehiculoTest {
 	public void testAltaYBuscarVehiculo() {
 		alqvehiculo.altaVehiculo(new Coche(1, "Automático",Categoria.A));
 		Vehiculo vehiculo = alqvehiculo.buscarVehiculo(1);
-		assertEquals(1, vehiculo.id);
-		assertEquals("Automático", vehiculo.descripcion);
+		assertEquals(1, vehiculo.getId());
+		assertEquals("Automático", vehiculo.getDescripcion());
 	}
 
 }
