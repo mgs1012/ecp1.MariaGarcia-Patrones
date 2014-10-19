@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import ecp1.patrones.AplicacionVehiculos.AlquilerVehiculo;
+import ecp1.patrones.AplicacionAlquilerVehiculos.AlquilerVehiculo;
 
 public class AlquilerVehiculoTest {
 	

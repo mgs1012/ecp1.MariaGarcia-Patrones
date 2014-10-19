@@ -1,4 +1,4 @@
-package ecp1.patrones.AplicacionVehiculos;
+package ecp1.patrones.AplicacionAlquilerVehiculos;
 
 public enum Categoria {
 	A(10.00),
