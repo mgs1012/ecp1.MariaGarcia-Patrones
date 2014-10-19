@@ -12,8 +12,8 @@ public class AlquilerVehiculo {
 		
 	}	
 	//vista void
-	public Vehiculo buscarVehiculo(String id){
-		assert vehiculos.get(id)!=null : "El vehículo no ha sido añadido.";
+	public Vehiculo buscarVehiculo(int id){
+		assert vehiculos.get(id)!=null : "El vehículo no ha podido ser añadido.";
 		return vehiculos.get(id);	
 	}
 	
@@ -21,13 +21,8 @@ public class AlquilerVehiculo {
 		return this.vehiculos;
 	}
 
-
-	public void precioVehiculo(int id, int dias){
-		
-	}
-	
 	public String toString(){
-		return vehiculos.toString();;
+		return vehiculos.toString();
 		
 	}
 

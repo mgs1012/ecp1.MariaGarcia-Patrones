@@ -23,7 +23,7 @@ public class VehiculoController {
     }
     
     public void verPrecio(){
-        IO.out.println(this.gestorVehiculo.buscarVehiculo(IO.in.readString("Introduzca el id del vehículo para calcular su precio.")).calcularPrecio(IO.in.readInt("Introduzca el número de días a alquilar.")) + "€");
+        IO.out.println(this.gestorVehiculo.buscarVehiculo(IO.in.readInt("Introduzca el id del vehículo para calcular su precio.")).calcularPrecio(IO.in.readInt("Introduzca el número de días a alquilar.")) + "€");
     }
 	
 	
