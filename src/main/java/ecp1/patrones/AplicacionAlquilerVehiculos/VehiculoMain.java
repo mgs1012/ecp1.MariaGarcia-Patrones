@@ -5,7 +5,7 @@ import upm.jbb.IO;
 public class VehiculoMain {
 	
 	public static void main(String[] args) {
-		AlquilerVehiculo controlador = new AlquilerVehiculo();
-		IO.out.addController(controlador);
+		AlquilerVehiculo controller = new AlquilerVehiculo();
+		IO.out.addController(controller);
 	}
 }

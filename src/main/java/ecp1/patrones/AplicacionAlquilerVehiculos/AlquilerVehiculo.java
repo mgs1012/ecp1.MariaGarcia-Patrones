@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class AlquilerVehiculo {
 		
-	public Map<Integer,Vehiculo> vehiculos = new HashMap<Integer,Vehiculo>();
+	public Map<Integer,Vehiculo> vehiculos = new HashMap<>();
 	
 	public void altaVehiculo(Vehiculo vehiculo){
 		vehiculos.put(vehiculo.getId(), vehiculo);
@@ -25,6 +25,4 @@ public class AlquilerVehiculo {
 		return vehiculos.toString();
 		
 	}
-
-
 }
